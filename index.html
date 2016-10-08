@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index-new-2.css" />
+		
+
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<!--
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		-->
+		<script type="text/javascript">
+		function banner(){	
+			var bn_id = 0;
+			var bn_id2= 1;
+			var speed33=5000;
+			var qhjg = 1;
+		    var MyMar33;
+			$("#banner .d1").hide();
+			$("#banner .d1").eq(0).fadeIn("slow");
+			if($("#banner .d1").length>1)
+			{
+				$("#banner_id li").eq(0).addClass("nuw");
+				function Marquee33(){
+					bn_id2 = bn_id+1;
+					if(bn_id2>$("#banner .d1").length-1)
+					{
+						bn_id2 = 0;
+					}
+					$("#banner .d1").eq(bn_id).css("z-index","2");
+					$("#banner .d1").eq(bn_id2).css("z-index","1");
+					$("#banner .d1").eq(bn_id2).show();
+					$("#banner .d1").eq(bn_id).fadeOut("slow");
+					$("#banner_id li").removeClass("nuw");
+					$("#banner_id li").eq(bn_id2).addClass("nuw");
+					bn_id=bn_id2;
+				};
+			
+				MyMar33=setInterval(Marquee33,speed33);
+				
+				$("#banner_id li").click(function(){
+					var bn_id3 = $("#banner_id li").index(this);
+					if(bn_id3!=bn_id&&qhjg==1)
+					{
+						qhjg = 0;
+						$("#banner .d1").eq(bn_id).css("z-index","2");
+						$("#banner .d1").eq(bn_id3).css("z-index","1");
+						$("#banner .d1").eq(bn_id3).show();
+						$("#banner .d1").eq(bn_id).fadeOut("slow",function(){qhjg = 1;});
+						$("#banner_id li").removeClass("nuw");
+						$("#banner_id li").eq(bn_id3).addClass("nuw");
+						bn_id=bn_id3;
+					}
+				})
+				$("#banner_id").hover(
+					function(){
+						clearInterval(MyMar33);
+					}
+					,
+					function(){
+						MyMar33=setInterval(Marquee33,speed33);
+					}
+				)	
+			}
+			else
+			{
+				$("#banner_id").hide();
+			}
+		}
+		</script>
+	</head>
+
+	<body>
+	<div class="banner" id="banner" >
+
+
+			<div class="top">
+				<ul  class="clearfix">
+					<li><a href="javascript:;">首页</a></li>
+					<li><a href="cpzs.html">产品展示</a></li>
+					<li><a href="jcal-db.html">精彩案例</a></li>
+					<li><a href="javascript:;">在线订购</a></li>
+					<li><a href="newlist.html">新闻中心</a></li>
+					<li style="border-right:none"><a href="gywm.html">关于我们</a></li>
+				</ul>
+
+	</div>
+		<a class="d1" style="background:url(img/banner.png) center no-repeat;"></a>
+		<a class="d1" style="background:url(img/banner1.jpg) center no-repeat;"></a>
+		<a class="d1" style="background:url(img/banner.png) center no-repeat;"></a>
+		<a class="d1" style="background:url(img/banner1.jpg) center no-repeat;"></a>
+		<a class="d1" style="background:url(img/banner.png) center no-repeat;"></a>
+		<div class="d2" id="banner_id">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	<!--
+		<div class="title"></div>
+		<div class="b-title"></div>
+		<div class="right-btn">
+			<img src="img/btn-r.png" alt="">
+		</div>
+	-->
+	</div>
+
+	<script type="text/javascript">banner()</script>
+
+
+<div class="all">
+
+	<div class="head2">
+		<img  class="head2-img1" src="img/background.jpg" />
+		<img class="head2-img" src="img/2.png" />
+		<div class="head2-btn">
+			<a href="#">高清地毯优势</a>
+			<a href="#">广告地垫制定中心</a>
+			<a href="#">出货流程配置</a>
+
+		</div>
+		<a class="head2-btn2" href="#">了解我们</a>
+		
+	</div>
+	<div class="head3">
+		<img class="head3-img" src="img/ktty.png" />
+	</div>
+
+		<div class="head4 clearfix">
+			<div class="head4-block1">
+				<img class="head4-img none1" src="img/csr.png" />
+				<div class="head4-font2">
+					<p class="font-p">企业创始人</p>
+					<p class="font-p3">介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					<a class="font-p4" href="#"><img src="img/lj.png" /></a>
+				</div>
+			</div>
+			<div class="head4-block2">
+				<img class="head4-img2 none2" src="img/ds.png" />
+				<div class="head4-font3">
+					<p class="font-p">标题</p>
+					<p class="font-p3">介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					<a class="font-p4" href="#"><img src="img/lj.png" /></a>
+				</div>
+			</div>
+			<div class="head4-block3">
+				<img class="head4-img2 none3" src="img/td.png" />
+				<div class="head4-font4">
+					<p class="font-p">标题</p>
+					<p class="font-p3">介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					<a class="font-p4" href="#"><img src="img/lj.png" /></a>
+				</div>
+			</div>
+			<div class="head4-block4">
+				<img class="head4-img2 img3 none4" src="img/1.png" />
+				<div class="head4-font6">
+					<p class="font-p">标题</p>
+					<p class="font-p2">English</p>
+					<p class="font-p3">介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					<a class="font-p4" href="#"><img src="img/lj.png" /></a>
+				</div>
+			</div>
+			<div class="head4-block5">
+				<img class="head4-img2 none5" src="img/sb.png" />
+				<div class="head4-font5">
+					<p class="font-p">标题</p>
+					<p class="font-p3">介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+					<a class="font-p4" href="#"><img src="img/lj.png" /></a>
+				</div>
+			</div>
+				
+	
+				<div class="head4-foot"></div>
+		</div>
+
+			<div class="container">
+				<img class="c-img" src="img/know.png" />
+				<img class="c-img" src="img/ys.png" />
+				<img class="c-img1" src="img/ys2.png" />
+				<div class="con-in">
+					<img src="img/dz.png" />
+					<p class="p1">大自然地板</p>
+					<p class="p2">制作案例</p>
+					<p class="p3">沈阳坤图毯业为大自然家居系列产品、多家店面网点一对一式单独推广品牌形象!更有地区准确性，比传统营销方式更直接更迅速、更灵活，为您带来更多潜在客户，快速提升企业销售额和品牌影响力。</p>
+					<a href="#" style="	z-index: 9999;">
+						<p class="p4">了解更多/more</p>
+					</a>
+					<p class="p1">生活家地板</p>
+					<p class="p2">制作案例</p>
+					<p class="p3">沈阳坤图毯业为生活家系列产品提供多种地面广告宣传形式, 不断的提供新式的广告地毯形式,率率抓住市场形式吗,以范围性宣传提升更多的潜在客户,快速提升品牌的影响力与行业价值。</p>
+					<a href="#">
+						<p class="p4">了解更多/more</p>
+					</a>
+					<p class="p1">圣象地板</p>
+					<p class="p2">制作案例</p>
+					<p class="p3">沈阳坤图毯业为圣象地板、多家店面网店一对一式单独推广品牌形象!提供专业的设计,专业范围式广告效应,多样的风格来提高品牌价值。</p>
+					<a href="#">
+						<p class="p4"  style="margin-top:-20px;">了解更多/more</p>
+					</a>
+					<div class="cen-con">
+						<a href="#"><img src="img/db1.png" alt=""></a>
+						<a href="#"><img src="img/db2.png" alt=""></a>
+						<a href="#"><img src="img/db3.png" alt="" style="height:160px;"></a>
+						<div class="cen-right">
+							<div class="cen-right1"><a href="#"><img src="img/r1.png" alt=""></a><p>顾家家居广告地垫</p></div>
+							<div class="cen-right2"><a href="#"><img src="img/r2.png" alt=""></a><p>全友家私广告地垫</p></div>
+							<div class="cen-right3"><a href="#"><img src="img/r3.png" alt=""></a><p>索菲亚衣柜广告地垫</p></div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+			<div class="middle">
+				<div class="m-block1">
+					<div class="m-block1-left">
+						<div class="m-block1-left1">
+							<div class="m-block1-img"><img src="img/heart.png" alt=""></div>
+							<div class="m-block1-title m-block1-title1">
+								<p><span>01</span><i>实力雄厚值得信赖</i></p>
+								<p style="font-size:12px">厂家直销，厂区占地面积约20000余平方米，公司年产量设计能力300万平方米，实力雄厚</p>
+							</div>
+						</div>
+						
+						<div class="m-block1-left1">
+							<div class="m-block1-img"><img src="img/bus.png" alt=""></div>
+							<div class="m-block1-title m-block1-title2">
+								<p><span>01</span><i>实力雄厚值得信赖</i></p>
+								<p style="font-size:12px">厂家直销，厂区占地面积约20000余平方米，公司年产量设计能力300万平方米，实力雄厚</p>
+							</div>
+						</div>
+						
+						<div class="m-block1-left1">
+							<div class="m-block1-img"><img src="img/tool.png" alt=""></div>
+							<div class="m-block1-title m-block1-title3">
+								<p><span>01</span><i>实力雄厚值得信赖</i></p>
+								<p style="font-size:12px">厂家直销，厂区占地面积约20000余平方米，公司年产量设计能力300万平方米，实力雄厚</p>
+							</div>
+						</div>
+						<div class="m-block1-left1">
+							<div class="m-block1-img"><img src="img/man.png" alt=""></div>
+							<div class="m-block1-title m-block1-title4">
+								<p><span>01</span><i>实力雄厚值得信赖</i></p>
+								<p style="font-size:12px">厂家直销，厂区占地面积约20000余平方米，公司年产量设计能力300万平方米，实力雄厚</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="m-block1-right">
+						<img class="rightimg-1" src="img/gc6.png" alt="">
+						<img class="rightimg-2" src="img/gc8.png" alt="">
+						<img class="rightimg-3" src="img/gc5.png" alt="">
+					</div>
+				</div>
+				<div class="m-block2">
+					<img class="lc" src="img/dzlc.png" alt="">
+					<img class="lc1" src="img/lc1.png" alt="">
+					<img class="lc2" src="img/lc2.png" alt="">
+					<a class="lc3" href="javascript:;"></a>
+				</div>
+			</div>
+</div>
+			<div class="container2">
+				<div class="container2-in">
+					<img class="bg" src="img/background2.png" />
+					<span class="js">&nbsp;&nbsp;沈阳坤图毯业有限公司成立于2013年，占地面积约20000余平方米，地处沈阳市经济技术开发区，开发大道沿线，交通便利。公司在职员工150余人，高级管理人员5人，设计团队5人，公司年产量设计能力300万平方米，是一家新型环保型企业。公司引进国内领先技术的喷墨印花机，6色电脑提花机，丙纶电脑簇绒机等多台设备。部分产品远销国外市场，尤其对俄市场占大量销售份额；同时根据国内客户特殊要求提供定制及生产服务。公司愿与海内外……</span>
+					<img class="cp1" src="img/haier.png" />
+					<img class="cp2" src="img/cp.png" />
+					<img class="cp3" src="img/gc9.png" />
+					<img class="cp4" src="img/gc3.png" />
+					<div class="cp5">
+						<h3>工作区展示</h3>
+						<p>展示工作情况<br>了解企业情况</p>
+						<a href="JavaScript:;">了解更多/more</a>
+					</div>
+					<div class="cp6">
+						<h3>广告地垫</h3>
+						<p>广告地垫广告地垫广告地垫广告地垫广告地垫广告地垫广告地垫广告地垫广告地垫广告地垫广告地垫广告地垫</p>
+						<a href="javascript:;">了解更多/more</a>
+					</div>
+					<div class="cp7">
+						<h3>广告地垫的赠送方法</h3>
+						<p>1、购买产品即赠送相应的广告门垫（可以是买就送），尤其是建材家居，家具，连锁品牌等行业</p>
+						<a href="javascript:;">了解更多/more</a>
+					</div>
+					<div class="cp8">
+						<img src="img/bot9.png" alt="">
+					</div>
+					<div class="cp9">
+					  <div class="cp9-con">
+					  	<h3>广告地垫适合的场所</h3>
+					  	<p>1、购买产品即赠送相应的广告门垫（可以是买就送），尤其购买产品即赠送相应的广告门垫（可以是买就送），尤其购买产品即赠）</p>
+					  </div>
+						<a href="javascript:;">了解更多/more</a>
+					</div>
+					<img class="cp10" src="img/kk.png" alt="">
+				</div>
+			</div>
+			<div class="footer">
+				<img class="hz-img" src="img/hz.png" />
+				<div class="footer-in">
+					<div class="pp-in">
+						<img src="img/pp1.png" />
+						<img src="img/pp2.jpg" />
+						<img src="img/pp3.jpg" />
+					</div>
+					<div class="pp-in">
+						<img src="img/pp4.jpg" />
+						<img src="img/pp5.jpg" />
+						<img src="img/pp6.jpg" />
+					</div>
+					<div class="pp-in">
+						<img src="img/pp7.jpg" />
+						<img src="img/pp8.jpg" />
+						<img src="img/pp9.jpg" />
+					</div>
+					<div class="pp-in">
+						<img src="img/pp10.jpg" />
+						<img src="img/pp11.jpg" />
+						<img src="img/pp12.jpg" />
+					</div>
+					<div class="pp-in pp-in2">
+						<img src="img/pp13.jpg" />
+						<img src="img/pp14.jpg" />
+						<img src="img/pp15.jpg" />
+					</div>
+
+				</div>
+				<div class="foot">
+					<span>沈阳坤图毯业有限公司<br />电话：024-87986333　024-87987555 <br />公司地址：沈阳市沈河区北站路55号财富中心C座 </span>
+					<span>全国免费热线：4001899533 <br />QQ： 1931515555  手机：18842475555 <br />工厂地址：沈阳市经济开发区新民屯镇</span>
+					<div class="footimg">
+					<img src="img/erweima.jpg"/>
+					<input type="text"/>
+					</div>
+				</div>
+		</div>
+		<div class="flow">
+			<a href="#"><img src="img/phone.png" alt=""></a>
+		</div>
+		<script type="text/javascript">banner()</script>
+	</body>
+
+</html>
