@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Microsoft YaHei ,'Raleway', Arial, sans-serif;
+}
+.content{
+	width: 100%;
+	background-color: #dcdddd;
+}
+.bb {
+	border-bottom: 1px solid white;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.right-in{
+	cursor: pointer;
+	transition: all .5s;
+	-moz-transition: all .5s;	/* Firefox 4 */
+	-webkit-transition: all .5s;	/* Safari ºÍ Chrome */
+	-o-transition: all .5s;	/* Opera */
+}
+.right-in :hover img {
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);		/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari and Chrome */
+	-o-transform: scale(1.1);		/* Opera */
+	-moz-transform: scale(1.1);	
+}
+.page a:hover{
+	color: #D2BE3D;
+	font-size: 14px;
+
+}
+.nav {
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	background-color: #80283c;
+}
+
+.nav ul {
+	margin-left: 75px;
+}
+
+.nav ul li {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	margin-left: -8px;
+}
+
+.nav ul li a {
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	border-right: 1px solid white;
+	padding: 0 20px;
+}
+
+.nav ul li:hover{
+	color: #D2BE3D;
+	background-color: #66192C;
+	height: 60px;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav ul li:hover a{
+	color: #D2BE3D;
+}
+.nav ul li .none {
+	border-right: none;
+}
+
+.nav ul .red {
+	display: inline-block;
+	width: 101px;
+	text-align: center;
+	background-color: #66192c;
+	height: 60px;
+	border-radius: 0 0 10px 10px;
+}
+
+.logo {
+	width: 1200px;
+	margin: 0 auto;
+	height: 126px;
+	background-image: url(../img/bg.jpg);
+}
+
+.logo img {
+	margin-top: 38px;
+	margin-left: 350px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #1e1d18;
+	position: relative;
+}
+
+.container-left {
+	width: 306px;
+	height: 400px;
+	background-color: #80283c;
+	border-radius: 0 30px 30px 0;
+	margin-top: -40px;
+	display: inline-block;
+	padding: 1px;
+	position: relative;
+	top: -300px;
+}
+
+.container-left p {
+    font-size: 31px;
+    color: #FFF;
+    display: block;
+    width: 248px;
+    height: 60px;
+    text-align: center;
+    background-color: #66192C;
+    line-height: 60px;
+    margin-top: 64px;
+    margin-left: 59px;
+    border-radius: 12px 0px 0px 12px;
+    letter-spacing: 2px;
+}
+
+
+.container-left ul {
+	margin-top: 10px;
+	margin-left: 107px;
+}
+
+.container-left ul li {
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #FFF;
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    text-align: left;
+    border-top: 1px solid #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container-left ul li:hover{
+	color: #D2BE3D;
+}
+.container-left ul li span:hover{
+	color: #D2BE3D;
+}
+.li-red {
+    background-color: #66192C;
+    border-radius: 10px 0px 0px 10px;
+    display: inline-block;
+    margin-left: -5px;
+    width: 202px;
+    position: absolute;
+    left: 88px;
+    padding-left: 23px;
+    letter-spacing: 2px;
+    font-size: 19px;
+    color: #fff;
+    height: 44px;
+}
+.container-left ul b{
+	margin-right: 4px;
+}
+.container-left ul li:hover{
+	color: #D2BE3D;
+}
+ul,li{
+	list-style: none;
+}
+.container-right{
+	width: 650px;
+	padding: 17px 42px;
+	background-color: #3a3830;
+	display: inline-block;
+    margin-top: 32px;
+    margin-left: 54px;
+}
+.right-in2{
+	display: inline-block;
+	width: 366px;
+	position: relative;
+	top: -50px;
+	
+}
+.right-in2 .p1{
+	font-size: 19px;
+	color:#ddd;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+.right-in2 .p2{
+	font-size: 13px;
+	color: #ddd;
+	padding-top: 5px;
+}
+.right-in .c1{
+	font-size: 25px;
+	font-family: "宋体";
+	color: #8c8d8c;
+	margin: 0 30px;
+	position: relative;
+	top: -90px;
+}
+.right-in{
+	margin-bottom: 10px;
+}
+.page{
+	text-align: center;
+}
+.page>a{
+	margin: 0 2px;
+}
+.page>span{
+	margin-left: 20px;
+}
+.page a,span{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #ddd;
+	text-decoration: none;
+}
+.foot {
+	width: 767px;
+	height: 166px;
+	margin: 0 auto;
+}
+
+.foot span {
+	display: inline-block;
+	color: #9fa0a0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	position: relative;
+	top:44px;
+}
+
+.foot input {
+	float: right;
+	margin-top: 16px;
+	margin-right: 0px;
+	width: 165px;
+	height: 26px;
+	background-color: #812a3d;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-image: url(../img/icon6.png);
+	background-repeat: no-repeat;
+	background-position: 98% 46%;
+}
+.foot img{
+	margin-top: 20px;
+	margin-left: 164px;
+}
+.foot span:first-child{
+	margin-right: 27px;
+}

@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Microsoft YaHei ,'Raleway', Arial, sans-serif;
+}
+.content{
+	width: 100%;
+	background-color: #dcdddd;
+}
+.bb {
+	border-bottom: 1px solid white;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.nav {
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	background-color: #80283c;
+}
+
+.nav ul {
+	margin-left: 75px;
+}
+
+.nav ul li {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	margin-left: -8px;
+}
+
+.nav ul li a {
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	border-right: 1px solid white;
+	padding: 0 20px;
+}
+
+.nav ul li:hover{
+	color: #D2BE3D;
+	background-color: #66192C;
+	height: 60px;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav ul li:hover a{
+	color: #D2BE3D;
+}
+.nav ul li .none {
+	border-right: none;
+}
+
+.nav ul .red {
+	display: inline-block;
+	width: 101px;
+	text-align: center;
+	background-color: #66192c;
+	height: 60px;
+	border-radius: 0 0 10px 10px;
+}
+.logo {
+	width: 1200px;
+	margin: 0 auto;
+	height: 126px;
+	background-image: url(../img/bg.jpg);
+}
+
+.logo img {
+	margin-top: 38px;
+	margin-left: 350px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #1e1d18;
+	padding: 1px;
+	position: relative;
+}
+
+.container-left {
+	width: 306px;
+	height: 400px;
+	background-color: #80283c;
+	border-radius: 0 30px 30px 0;
+	margin-top: -40px;
+	display: inline-block;
+	padding: 1px;
+	position: relative;
+	top: -940px;
+}
+
+.container-left p {
+    font-size: 31px;
+    color: #FFF;
+    display: block;
+    width: 248px;
+    height: 60px;
+    text-align: center;
+    background-color: #66192C;
+    line-height: 60px;
+    margin-top: 64px;
+    margin-left: 59px;
+    border-radius: 12px 0px 0px 12px;
+    letter-spacing: 2px;
+}
+.container-left ul {
+	margin-top: 10px;
+	margin-left: 107px;
+}
+ul,li{
+	list-style: none;
+}
+.container-left ul b{
+	margin-right: 4px;
+}
+.container-left ul li {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #FFF;
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    text-align: left;
+    border-top: 1px solid #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container-left ul li:hover{
+	color: #D2BE3D;
+}
+.container-right {
+    width: 700px;
+    background-color: #3a3830;
+    padding: 18px 44px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 1200px;
+    margin-bottom: 40px;
+}
+.container-right a{
+	float: right;
+	color: #ddd;
+	cursor: pointer;
+}
+.container-right a:hover{
+	color: #D2BE3D;
+}
+.container-right .p1 {
+    font-size: 22px;
+    color: #ddd;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.container-right .p2{
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+	padding-top: 10px;
+}
+.font-img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.container-right .p3{
+	margin-top: 30px;
+	color: #ddd;
+	font-size: 15px;
+}
+.footer {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #1e1d18;
+}
+
+.hz-img {
+	margin: 0 auto;
+	display: block;
+}
+
+.footer-in {
+	width: 707px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px 30px;
+}
+
+.pp-in {
+	border-bottom: 1px dashed black;
+}
+
+.pp-in img {
+	margin-left: 28px;
+}
+
+.pp-in2 {
+	border-bottom: none;
+}
+
+.foot {
+	width: 767px;
+	height: 166px;
+	margin: 0 auto;
+}
+
+.foot span {
+	display: inline-block;
+	color: #9fa0a0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	position: relative;
+	top:44px;
+}
+
+.foot input {
+	float: right;
+	margin-top: 16px;
+	margin-right: 0px;
+	width: 165px;
+	height: 26px;
+	background-color: #812a3d;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-image: url(../img/icon6.png);
+	background-repeat: no-repeat;
+	background-position: 98% 46%;
+}
+.foot img{
+	margin-top: 20px;
+	margin-left: 164px;
+}
+.foot span:first-child{
+	margin-right: 27px;
+}

@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Microsoft YaHei ,'Raleway', Arial, sans-serif;
+}
+.content {
+	background-color: #dcdddd;
+	width: 100%;
+}
+
+.nav {
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	background-color: #80283c;
+}
+
+.nav ul {
+	margin-left: 75px;
+}
+
+.nav ul li {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	margin-left: -8px;
+}
+
+.nav ul li a {
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	border-right: 1px solid white;
+	padding: 0 20px;
+}
+
+.nav ul li:hover{
+	color: #D2BE3D;
+	background-color: #66192C;
+	height: 60px;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav ul li:hover a{
+	color: #D2BE3D;
+}
+.nav ul li .none {
+	border-right: none;
+}
+
+.nav ul .red {
+	display: inline-block;
+	width: 101px;
+	text-align: center;
+	background-color: #66192c;
+	height: 60px;
+	border-radius: 0 0 10px 10px;
+}
+.logo {
+	width: 1200px;
+	margin: 0 auto;
+	height: 126px;
+	background-image: url(../img/bg.jpg);
+}
+
+.logo img {
+	margin-top: 38px;
+	margin-left: 350px;
+}
+
+.container {
+	width: 1198px;
+	margin: 0 auto;
+	background-color: #1e1d18;
+	padding: 1px;
+	position: relative;
+}
+
+.container-left {
+	width: 306px;
+	height: 441px;
+	background-color: #80283c;
+	border-radius: 0 30px 30px 0;
+	display: inline-block;
+	padding: 1px;
+	position: relative;
+	top: -1440px;
+	left: -1px;
+	z-index: 999;
+
+}
+.container-left p{
+	font-size: 15px;
+	color: #ddd;
+	margin-top: 50px;
+	margin-left: 38px;
+	width: 218px;
+}
+.container-right{
+	display: inline-block;
+	width: 639px;
+	position: relative;
+	left: -88px;
+}
+.container-right img{
+	margin-bottom: 4px;
+}
+.container-left2{
+	position: relative;
+	left: -88px;
+	display: inline-block;
+	width: 115px;
+	height: 1696px;
+	background-color: #2a2823;
+	margin-top: 52px;
+	top: -2px;
+}
+.container-right img{
+	z-index: 9999999999;
+	cursor: pointer;
+	transition: all .5s;
+	-moz-transition: all .5s;	/* Firefox 4 */
+	-webkit-transition: all .5s;	/* Safari ºÍ Chrome */
+	-o-transition: all .5s;	/* Opera */
+}
+.container-right  img:hover{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);		/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari and Chrome */
+	-o-transform: scale(1.1);		/* Opera */
+	-moz-transform: scale(1.1);		/* Firefox */
+}
+.foot {
+	width: 767px;
+	height: 166px;
+	margin: 0 auto;
+}
+
+.foot span {
+	display: inline-block;
+	color: #9fa0a0;
+	font-size: 12px;
+	position: relative;
+	top:44px;
+}
+
+.foot input {
+	float: right;
+	margin-top: 16px;
+	margin-right: 0px;
+	width: 165px;
+	height: 26px;
+	background-color: #812a3d;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-image: url(../img/icon6.png);
+	background-repeat: no-repeat;
+	background-position: 98% 46%;
+}
+.foot img{
+	margin-top: 20px;
+	margin-left: 164px;
+}
+.foot span:first-child{
+	margin-right: 27px;
+}
